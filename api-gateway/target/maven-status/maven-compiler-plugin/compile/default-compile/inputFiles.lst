@@ -1,0 +1,7 @@
+D:\microservices-docker\microservices-docker\api-gateway\src\main\java\com\ecomics\api_gateway\exception\GatewayErrorHandler.java
+D:\microservices-docker\microservices-docker\api-gateway\src\main\java\com\ecomics\api_gateway\security\JwtGatewayFilter.java
+D:\microservices-docker\microservices-docker\api-gateway\src\main\java\com\ecomics\api_gateway\utils\JwtUtils.java
+D:\microservices-docker\microservices-docker\api-gateway\src\main\java\com\ecomics\api_gateway\ApiGatewayApplication.java
+D:\microservices-docker\microservices-docker\api-gateway\src\main\java\com\ecomics\api_gateway\fallback\FallbackController.java
+D:\microservices-docker\microservices-docker\api-gateway\src\main\java\com\ecomics\api_gateway\exception\ErrorResponse.java
+D:\microservices-docker\microservices-docker\api-gateway\src\main\java\com\ecomics\api_gateway\security\SecurityConfig.java

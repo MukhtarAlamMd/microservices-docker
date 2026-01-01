@@ -1,0 +1,7 @@
+com\ecomics\api_gateway\fallback\FallbackController.class
+com\ecomics\api_gateway\exception\GatewayErrorHandler.class
+com\ecomics\api_gateway\utils\JwtUtils.class
+com\ecomics\api_gateway\security\SecurityConfig.class
+com\ecomics\api_gateway\ApiGatewayApplication.class
+com\ecomics\api_gateway\exception\ErrorResponse.class
+com\ecomics\api_gateway\security\JwtGatewayFilter.class

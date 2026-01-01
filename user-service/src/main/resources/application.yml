@@ -1,0 +1,51 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: USER-SERVICE
+
+  datasource:
+    url: jdbc:mysql://mysql:3306/microservices_db?useSSL=false&allowPublicKeyRetrieval=true
+    username: appuser
+    password: apppass
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    open-in-view: false
+    properties:
+      hibernate:
+        format_sql: true
+
+  jackson:
+    serialization:
+      indent-output: true
+
+  # 🔥 Disable until Config Server is containerized
+  config:
+    import: ""
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-server:8761/eureka
+    fetch-registry: true
+    register-with-eureka: true
+
+  instance:
+    prefer-ip-address: true
+
+# 🔐 JWT CONFIG (unchanged)
+jwt:
+  secret: mySecretKey1234567890mySecretKey1234567890
+  expiration: 86400000   # 24 hours in ms
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
