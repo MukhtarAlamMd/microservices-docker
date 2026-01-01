@@ -100,3 +100,47 @@ Response:
 {
   "token": "eyJhbGciOiJIUzI1NiJ9..."
 }
+cd user-service
+mvn spring-boot:run
+
+cd product-service
+mvn spring-boot:run
+
+cd order-service
+mvn spring-boot:run
+
+Features Implemented
+
+Microservices architecture
+
+Eureka service discovery
+
+API Gateway routing
+
+JWT authentication
+
+Role-based authorization
+
+Clean layered design
+
+Production-ready security
+
+🔮 Future Enhancements
+
+Refresh token support
+
+Rate limiting
+
+Resilience4j circuit breaker
+
+Centralized logging (ELK)
+
+Docker Compose
+
+Kubernetes deployment
+
+👨‍💻 Author
+
+MD Mukhtar Alam
+Java | Spring Boot | Microservices | REST APIs
+Bihar, India
